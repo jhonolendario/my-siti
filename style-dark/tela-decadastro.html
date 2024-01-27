@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela De Login estilo Dark</title>
+
+    <link rel="stylesheet" href="estilo/style.css">
+
+</head>
+<body>
+    <form action="cadastro.php" method="post" >
+        <div>
+            <img width="140px" src="png/logo.png" alt="">
+            <h1>
+                Login
+            </h1>
+            <p>
+                <input type="text" name="nome" id="inome" placeholder="Nome" required minlength="3" maxlength="50" >
+            </p>
+            <p>
+                <input type="email" name="email" id="iemail" placeholder="E-mail" required >
+            </p>
+            <p>
+                <input type="password" name="senha" id="isenha" placeholder="Senha" required minlength="8" maxlength="30" >
+            </p>
+            <p>
+                <input type="password" name="confirmesenha" id="iconfirmesenha" placeholder="Confirme Sua Senha" minlength="8" maxlength="30" >
+            </p>
+            <p>
+                Ja tem uma conta? <a href="index.html">Entre Aqui</a>
+            </p>
+            <input class="enviar" type="submit" value="Enviar">
+            
+            <p>
+
+            </p>
+        </div>
+    </form>
+
+</body>
+</html>
